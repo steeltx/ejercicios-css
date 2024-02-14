@@ -1,0 +1,42 @@
+/* 
+ * Selector de tipo
+
+h2{
+    color: orange;
+    font-size: 30px;
+} 
+
+*/
+
+/* Selector de clase */
+/* .titulo{
+    color: brown;
+    font-size: 30px;
+    border: 1px solid black;
+} */
+
+/* .negrita {
+    font-weight: bold;
+} */
+
+/*  Selector de Id */
+/* #titulo{
+    color: steelblue;
+    font-size: 50px;
+} */
+
+/* Selector universal para todos los elementos*/
+/* *{
+    color: red;
+    font-size: 30px;
+} */
+
+/* Selector combinador de descendientes */
+/* .abuelo .titulo{
+    color: red;
+    font-size: 40px;
+}
+
+.abuelo>.titulo {
+    color: blue;
+} */
