@@ -1,0 +1,52 @@
+/* 
+    1er metodo:
+    Especificidad
+
+    1 - selector de tipo, pseudoelementos ::
+    10 - Selector de clase, pseudoclases :,[]
+    100 - Selector de ID
+
+    si se usa !important, es el valor que tomara aunque tenga menor especificidad
+*/
+
+/*
+    2do metodo:
+    Con cascada, se aplica la ultima propiedad declarada
+
+    Lo ideal es usar clases y mantener la especificidad al minimo
+*/
+
+/* #title {
+    color: rebeccapurple;
+}
+
+.title {
+    color: steelblue;
+}
+
+h1 {
+    color: tomato;
+} */
+
+/*
+    Herencia
+    Se heredan estilos de padres a hijos
+    Si el hijo tiene otro estilo, se anula la herencia
+*/
+
+body {
+    font-family: Arial;
+    color: tomato;
+}
+
+h2 {
+    font-family: cursive;
+}
+
+/* 
+    Indicar que use la propiedad del padre con inherit, no todas
+    las propiedades se heredan, si es necesario, hacerlo de esta manera
+*/
+a {
+    color: inherit;
+}
