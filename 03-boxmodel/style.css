@@ -1,0 +1,64 @@
+/* Capa 1 - Contenido*/
+
+/*Todo lo que se salga del elemento definido, se oculta con overflow: hidden;*/
+
+/* .caja {
+    background-color: yellow;
+    min-width: 200px;
+    width: 20%;
+    height: 100px;
+    max-width: 300px;
+    overflow: hidden;
+} */
+
+
+/* Capa 2 - Padding */
+.caja {
+    background-color: steelblue;
+    color: white;
+    font-size: 20px;
+    font-family: Arial;
+    width: 200px;
+    height: 200px;
+
+    /*sentido del reloj*/
+    padding: 30px 50px 70px 100px;
+
+    /* padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 70px;
+    padding-left: 100px; */
+
+    /* Capa 3 - Border*/
+
+    /* border-width: 30px 10px 20px 5px; */
+    border-width: 30px;
+    
+    /* border-style: dotted dashed solid double; */
+    border-style: dotted;
+
+    border-color: crimson black brown purple;
+
+    /* border: color width style */
+}
+
+.caja1 {
+    margin: 20px 40px 60px 10px;
+    /* margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    margin-left: 10px; */
+}
+
+.main {
+    background-color: steelblue;
+    color: white;
+    margin-bottom: 30px;
+}
+
+/* Cuando se encuentran 2 margenes en vertical, se mantiene el mayor, no se suma*/
+.footer {
+    color: white;
+    background-color: steelblue;
+    margin-top: 50px;
+}
