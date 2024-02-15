@@ -1,0 +1,81 @@
+/* 
+    Al colocar la propiedad content-box en box-sizing
+    se suma el tamaño con el border y padding para ser el tamaño total
+    del box.
+
+    Con border-box se toma como valores finales a width y height
+
+*/
+
+/*
+    Si deseamos aplicar la propiedad a todos los elementos, usar
+    la siguiente manera.
+
+    De manera predeterminada, los navegadores cuentan con margenes, se pueden
+    quitar indicandolo de manera general
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.element {
+    box-sizing: border-box;
+    width: 250px;
+    height: 250px;
+    background-color: purple;
+    border: 30px solid steelblue;
+    padding: 30px;
+    /* margin: 0 auto; */
+}
+
+body {
+    font-size: 25px; 
+}
+
+/* 
+    Un elemento en bloque cuando genera un salto de linea por que ocupa el 100% de su espacio
+    Todos los bloques se puede usar las propiedades del box model
+
+
+*/
+
+.block {
+    background-color: teal;
+    color: white;
+    padding: 30px;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+/*
+    Los elementos en linea no tienen salto de linea hasta que se termine el espacio
+    No se puede usar la propiedad width, margin y pardding vertical
+
+    Se puede usar display: block para indicar que se usara como bloque
+*/
+
+/* 
+    Se puede usar la propiedad inline-block para combinar las 2 propiedades.
+*/
+.inline {
+    font-size: 20px;
+    display: inline-block;
+    background-color: crimson;
+    color: white;
+    margin-top: 40px;
+    width: 200px;
+    height: 50px;
+}
+
+.button {
+    display: inline-block;
+    background-color: steelblue;
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    padding: 15px 40px;
+    border-radius: 30px;
+    /* margin: 50px; */
+    width: 300px;
+}
