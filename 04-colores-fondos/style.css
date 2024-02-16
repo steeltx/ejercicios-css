@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    Formas de indicar colores
+    - Por nombre de color
+    - Por RGB
+    - Por hexadecimal
+    - Por HSL
+*/
+
+.title {
+    margin: 70px;
+    /* color de texto */
+    /* nombre */
+    /* color: white; */
+    
+    /* rgb (rango 0-255), el cuarto valor define la opacidad */
+    /* color: rgb(255,105,180, 0.7); */
+
+    /*  hex, min 3 valores (0-f), normalmente son 6 (posicion 1-2 color rojo, 3-4 verde, 5-6 azul)
+        se pueden agregar 2 valores extras que definen la opacidad 
+    */
+    /* color: #00ff00; */
+
+    /* hsl tono/saturacion/brillo, el cuarto valor es la opacidad */
+    color: hsl(200, 50%, 80%, 1);
+
+    /* color de fondo */
+    background-color: black;
+}
