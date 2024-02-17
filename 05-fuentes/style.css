@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.card {
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 80px;
+    background-color: slateblue;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.title {
+    /* define el espaciado entre cada letra del texto*/
+    /* letter-spacing: 20px; */
+
+    /* define el espacio entre palabras*/
+    /* word-spacing: 40px; */
+
+    /* width: 150px; */
+
+    /* evitar que el texto se salga*/
+    overflow-wrap: break-word;
+
+    text-align: center;
+
+    font-weight: 900;
+    font-style: italic;
+
+    font-size: 50px;
+
+    /* alto de la linea de los textos*/
+    line-height: 2;
+}
+
+.paragraph {
+    text-transform: uppercase;
+    text-align: justify;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.paragraph--first {
+    text-transform: lowercase;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-weight: 700;
+    font-style: italic;
+}
